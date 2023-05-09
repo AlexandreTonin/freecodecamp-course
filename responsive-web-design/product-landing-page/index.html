@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt=""
+            id="header-img" />
+        <nav id="nav-bar">
+            <ul id="nav-list">
+                <li> <a href="#email-section" class="nav-link">Email</a> </li>
+                <li> <a href="#video" class="nav-link">How it Works</a> </li>
+                <li> <a href="#products" class="nav-link">Pricing</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="email-section">
+        <h1> Handcrafted, home-made masterpieces </h1>
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" id="email" placeholder="Insira seu email" required name="email">
+            <input type="submit" id="submit" value="GET STARTED">
+        </form>
+    </section>
+
+    <section id="products">
+        <div class="products">
+            <div class="prod">
+                <h3 class="prod-name"> TENOR TROMBONE </h3>
+                <p id="price">600</p>
+                <div>
+                    <p id="prod-description">Plays similar to a Trumpet</p>
+                    <p id="prod-description">Great for Jazz Bands</p>
+                    <p id="prod-description">Lorem ipsum dolor.</p>
+                    <p id="prod-description">Lorem ipsum.</p>
+                    <button id="select-button"> SELECT </button>
+                </div>
+            </div>
+            <div class="prod">
+                <h3 class="prod-name"> BASS TROMBONE </h3>
+                <p id="price">900</p>
+                <div>
+                    <p id="prod-description">Plays similar to a Trumpet</p>
+                    <p id="prod-description">Great for Jazz Bands</p>
+                    <p id="prod-description">Lorem ipsum dolor.</p>
+                    <p id="prod-description">Lorem ipsum.</p>
+                    <button id="select-button"> SELECT </button>
+                </div>
+            </div>
+            <div class="prod">
+                <h3 class="prod-name"> VALVE TROMBONE </h3>
+                <p id="price">1200</p>
+                <div>
+                    <p id="prod-description">Plays similar to a Trumpet</p>
+                    <p id="prod-description">Great for Jazz Bands</p>
+                    <p id="prod-description">Lorem ipsum dolor.</p>
+                    <p id="prod-description">Lorem ipsum.</p>
+                    <button id="select-button"> SELECT </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <iframe id="video" height="300"
+            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
+            allowfullscreen=""></iframe>
+    </section>
+
+    <footer>
+        <div class="footer-items">
+            <ul>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <p>
+            Copyright 2016, Original Trombones
+        </p>
+
+    </footer>
+</body>
+
+</html>
