@@ -1,0 +1,92 @@
+html {
+    color: #333333;
+}
+
+#main {
+    background-color: #eeeeee;
+    border-radius: 7px;
+    font-family: Tahoma, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#img-div {
+    background-color: #fff;
+    padding: 10px 0;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+}
+
+#image {
+    max-width: 100%;
+}
+
+#img-caption {
+    padding: 10px 0;
+}
+
+#title {
+    font-size: 38px;
+    margin-top: 50px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#subtitle {
+    font-size: 15px;
+    margin: 0;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section div {
+    width: 31.5%;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+section div ul li {
+    padding: 10px;
+}
+
+section div h3 {
+    text-align: center;
+    padding: 25px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phrase {
+    width: 29%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.visit {
+    font-size: 18px;
+}
+
